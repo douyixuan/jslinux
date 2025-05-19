@@ -38,12 +38,11 @@
     "url": "git://github.com/s-macke/jor1k.git"
   },
   "main": "index.html",
-  "dependencies": {},
   "devDependencies": {
     "browserify": "^17.0.0",
     "expect": "^29.7.0",
     "jshint": "^2.13.4",
-    "lab": "^25.0.0"
+    "lab": "^18.0.2"
   },
   "scripts": {
     "test": "lab --ignore onmessage -v test/cpu-facade.js",
